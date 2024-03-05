@@ -88,6 +88,7 @@ export default styled(TextField)(({theme, ownerState}: any) => {
             borderRadius: "2rem !important",
             boxShadow: "-1px 10px 39px 0px rgba(189,178,189,1)",
             backgroundColor: "white",
+            fontFamily:"Vazirmatn",
             '& .MuiFormHelperText-root': {
                 fontSize: ".85rem",
                 fontWeight: "bold",

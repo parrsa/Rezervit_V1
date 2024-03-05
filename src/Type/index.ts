@@ -1,3 +1,5 @@
+import * as React from "react";
+
 declare module '@mui/material/styles' {
     interface PaletteOptions {
         socialMedias: socialColors
@@ -174,7 +176,25 @@ export interface AllRoutes {
     route: string,
     component: React.ReactNode
     children?: any
-}
+};
+
+export interface INavList {
+    label:string;
+    path:string;
+    id_:number;
+};
+
+export interface DashboardProps {
+    children: React.ReactNode;
+};
+
+export interface IDrawerList {
+    title: string;
+    icon: any;
+    path: string;
+    auth: "Public" | "User" | "Auth" | "Admin";
+    func?: (event?: React.ChangeEvent<HTMLButtonElement>) => void;
+};
 
 
 export { }

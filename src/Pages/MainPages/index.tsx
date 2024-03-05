@@ -1,9 +1,10 @@
 import React from 'react'
 
-const index = () => {
-  return (
-    <div>index</div>
-  )
+const MainPages = () => {
+	return (
+		<div>
+		</div>
+	)
 }
 
-export default index
+export default MainPages
